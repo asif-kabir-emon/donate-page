@@ -1,0 +1,205 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 55px;
+}
+p {
+  font-size: 20px;
+}
+.btn {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background-color: #ff5959;
+  padding: 12px 30px;
+  margin: 0px;
+  border-radius: 5px;
+}
+.flexable-container {
+  display: flex;
+  justify-content: center;
+}
+.half-width {
+  width: 50%;
+}
+/* ------------- For top section (header section) ------------------ */
+.header-container {
+  background-image: url("images/donation1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-text-container {
+  padding: 10% 12%;
+  text-align: center;
+  align-items: center;
+}
+.header-text-container h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+.header-text-container p {
+  color: white;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+/* --------------- For donate Today section --------------------- */
+.donate-container {
+  text-align: center;
+  padding: 6% 0% 0% 0%;
+}
+.donate-text-container p {
+  margin-top: -30px;
+  padding: 0% 18%;
+}
+.cash {
+  margin-bottom: 20px;
+}
+.cash-amount-btn {
+  margin: 20px 10px;
+  height: 123px;
+  width: 135px;
+  vertical-align: middle;
+  border: 0px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #707070;
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+#selected-cash-btn {
+  border: 2px solid #ff5959;
+  background-color: #ffeeee;
+}
+.cash-input input {
+  border: 0px;
+  border-bottom: 2px solid #dadada;
+  width: 760px;
+  text-align: center;
+  font-size: 20px;
+  color: #dadada;
+  padding: 10px 0px;
+  margin-bottom: 40px;
+}
+.cash-input input:active {
+  border: 0px;
+  border-bottom: 2px solid #dadada;
+  color: black;
+}
+/* --------------- For donation Plan section --------------------- */
+.donate-plan-container {
+  text-align: center;
+  padding: 6% 5% 0% 5%;
+}
+.donate-plan-text-container p {
+  margin-top: -30px;
+  padding: 0% 17% 0% 17%;
+}
+.topic-container {
+  margin-bottom: 5px;
+}
+.topic {
+  height: auto;
+  width: 350px;
+  margin: 0px 8px;
+  padding: 2% 2% 0% 2%;
+  border-radius: 10px;
+  text-align: left;
+}
+.topic h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.topic h4 {
+  font-size: 15px;
+  font-weight: 300;
+}
+#topic-1 {
+  background-color: #4f9da610;
+}
+#topic-2 {
+  background-color: #ff595910;
+}
+#topic-3 {
+  background-color: #fff4d6;
+}
+
+.lr-section {
+  padding: 6% 10% 0% 10%;
+  align-items: center;
+}
+.lr-text-container {
+  margin: 0px 15px 0px 0px;
+}
+.lr-text-container h1 {
+  font-size: 30px;
+  line-height: 35px;
+  font-weight: bold;
+}
+.lr-text-container p {
+  font-size: 15px;
+  color: #707070;
+}
+.lr-text-container div {
+  margin-top: 30px;
+}
+.lr-img-container {
+  margin: 0px 15px 0px 0px;
+}
+.lr-img-container img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.get-update-container {
+  text-align: center;
+  margin: 8% 20% 8% 20%;
+}
+.get-update-text-container p {
+  margin-top: -20px;
+}
+.email-input-container {
+  background-color: #fff4d6;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: center;
+}
+.email-input-container input {
+  margin: 0px;
+  border: 0px;
+  padding: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #d9d9d9;
+  font-size: 20px;
+}
+.email-input-container button {
+  margin: 0px;
+  border: 0px;
+  padding: 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+  background-color: #ff5959;
+  font-size: 20px;
+}
+footer {
+  padding: 30px 0px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+}
+footer h3 {
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+  font-size: 30px;
+}
+footer h5 {
+  color: #d9dbe1;
+  font-size: 10px;
+}
