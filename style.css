@@ -4,12 +4,26 @@ body {
   font-family: "Poppins", sans-serif;
 }
 h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
-  line-height: 55px;
+  margin: 0px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+}
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+  margin: 0px;
+}
+h5 {
+  font-size: 10px;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
+  margin: 0px;
 }
 .btn {
   text-decoration: none;
@@ -25,7 +39,7 @@ p {
   justify-content: center;
 }
 .half-width {
-  width: 50%;
+  width: 45%;
 }
 /* ------------- For top section (header section) ------------------ */
 .header-container {
@@ -40,20 +54,19 @@ p {
 }
 .header-text-container h1 {
   color: white;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .header-text-container p {
   color: white;
   font-weight: 100;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 /* --------------- For donate Today section --------------------- */
 .donate-container {
   text-align: center;
   padding: 6% 0% 0% 0%;
 }
-.donate-text-container p {
-  margin-top: -30px;
+.donate-text-container {
   padding: 0% 18%;
 }
 .cash {
@@ -61,15 +74,15 @@ p {
 }
 .cash-amount-btn {
   margin: 20px 10px;
-  height: 123px;
-  width: 135px;
-  vertical-align: middle;
+  min-height: 100px;
+  min-width: 135px;
   border: 0px;
   font-size: 30px;
   font-weight: bold;
   color: #707070;
   background-color: #fafafa;
   border-radius: 5px;
+  cursor: pointer;
 }
 #selected-cash-btn {
   border: 2px solid #ff5959;
@@ -84,10 +97,9 @@ p {
   color: #dadada;
   padding: 10px 0px;
   margin-bottom: 40px;
+  outline: none;
 }
-.cash-input input:active {
-  border: 0px;
-  border-bottom: 2px solid #dadada;
+.cash-input input:focus {
   color: black;
 }
 /* --------------- For donation Plan section --------------------- */
@@ -95,28 +107,29 @@ p {
   text-align: center;
   padding: 6% 5% 0% 5%;
 }
-.donate-plan-text-container p {
-  margin-top: -30px;
+.donate-plan-text-container {
   padding: 0% 17% 0% 17%;
+  margin-bottom: 20px;
 }
 .topic-container {
   margin-bottom: 5px;
 }
 .topic {
   height: auto;
-  width: 350px;
-  margin: 0px 8px;
+  min-width: 250px;
+  max-width: 300px;
+  margin: 0px 8px 20px 8px;
   padding: 2% 2% 0% 2%;
   border-radius: 10px;
   text-align: left;
 }
-.topic h3 {
-  font-size: 20px;
-  font-weight: bold;
+.topic img {
+  margin-bottom: 20px;
 }
-.topic h4 {
+.topic p {
   font-size: 15px;
   font-weight: 300;
+  margin: 2px 0px 18px 0px;
 }
 #topic-1 {
   background-color: #4f9da610;
@@ -127,42 +140,36 @@ p {
 #topic-3 {
   background-color: #fff4d6;
 }
-
+/*  --------------- For two sections ---------------------  */
 .lr-section {
-  padding: 6% 10% 0% 10%;
+  padding: 8% 5% 0% 5%;
   align-items: center;
 }
 .lr-text-container {
-  margin: 0px 15px 0px 0px;
+  margin-left: 5%;
 }
-.lr-text-container h1 {
-  font-size: 30px;
-  line-height: 35px;
-  font-weight: bold;
-}
-.lr-text-container p {
-  font-size: 15px;
+.lr-text-container h4 {
+  font-weight: 100;
   color: #707070;
 }
 .lr-text-container div {
   margin-top: 30px;
 }
 .lr-img-container {
-  margin: 0px 15px 0px 0px;
+  margin-left: 5%;
 }
 .lr-img-container img {
   width: 100%;
   border-radius: 5px;
 }
 
+/*  --------------- For email section ---------------------  */
 .get-update-container {
   text-align: center;
   margin: 8% 20% 8% 20%;
 }
-.get-update-text-container p {
-  margin-top: -20px;
-}
 .email-input-container {
+  margin-top: 20px;
   background-color: #fff4d6;
   padding: 50px 60px;
   display: flex;
@@ -187,6 +194,8 @@ p {
   background-color: #ff5959;
   font-size: 20px;
 }
+
+/*  --------------- For footer section ---------------------  */
 footer {
   padding: 30px 0px;
   color: white;
@@ -201,5 +210,4 @@ footer h3 {
 }
 footer h5 {
   color: #d9dbe1;
-  font-size: 10px;
 }
